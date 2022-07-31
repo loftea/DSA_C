@@ -413,7 +413,7 @@ istream &read(istream &is, Sales_data &item){
 
 構建函數我們如果要初始化 `const` 對象，就需要使用如下的：
 
-```
+```cpp
 ConstRef::ConstRef(int ii):i(ii), ci(ii), ri(i){}
 ```
 
